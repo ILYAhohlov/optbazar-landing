@@ -701,6 +701,10 @@ footer p {
         width: 100%;
     }
 
+    .hero-scroll {
+        bottom: 20px;
+    }
+
     .steps {
         grid-template-columns: 1fr;
     }
