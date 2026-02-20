@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОптБазар.рф — Оптовые овощи и фрукты с рынка Азия-Сибирь</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">ОптБазар.рф</div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#benefits">Преимущества</a></li>
+                <li><a href="#how-it-works">Как работает</a></li>
+                <li><a href="#partners">Партнёрам</a></li>
+                <li><a href="#contact" class="nav-cta">Связаться</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Овощи и фрукты оптом с рынка Азия-Сибирь</h1>
+                <p class="hero-subtitle">Экономьте время и деньги — актуальные цены рынка без поездок и пробок</p>
+                <div class="hero-buttons">
+                    <a href="https://оптбазар.рф" class="btn btn-primary">В магазин</a>
+                    <a href="#how-it-works" class="btn btn-secondary">Как это работает</a>
+                </div>
+                <div class="hero-badges">
+                    <div class="badge"><i class="fas fa-shipping-fast"></i> Доставка в день заказа</div>
+                    <div class="badge"><i class="fas fa-tag"></i> Цены с рынка</div>
+                    <div class="badge"><i class="fas fa-home"></i> Без поездок</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Блок 2: Проблема + Выгоды -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2>Устали от хаоса на рынке?</h2>
+            <p class="intro">Каждый день закупщики Новосибирска тратят часы на дорогу, поиск товаров и торг. Цены меняются, наличие не гарантировано, а простои на кухне — потерянная выручка.</p>
+            
+            <div class="comparison">
+                <div class="problems">
+                    <h3>Проблемы</h3>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <span>Часы в пробках</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                        <span>Хаос и ожидание</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                        <span>Нет гарантий наличия</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/>
+                        </svg>
+                        <span>Риски ДТП и штрафов</span>
+                    </div>
+                </div>
+
+                <div class="solutions">
+                    <h3>ОптБазар решает это:</h3>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <span>Актуальные цены и наличие обновляются ежедневно</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/>
+                        </svg>
+                        <span>Заказ в 2 клика без звонков и ожиданий</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m-4 0v-6m4 6v-6m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"/>
+                        </svg>
+                        <span>Доставка Яндекс по НСО — быстро и надёжно</span>
+                    </div>
+                    <div class="item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <span>Экономия 10–20% на закупках за счёт прозрачности</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 3: Как пользоваться -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>Как работает ОптБазар</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    </svg>
+                    <p>Выберите товары из каталога — цены с рынка Азия-Сибирь</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+                    </svg>
+                    <p>Добавьте в корзину и оформите заказ</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    <p>Мы подтвердим наличие и рассчитаем доставку Яндекс</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+                    </svg>
+                    <p>Оплатите (товар + доставка) в один клик</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <p>Получите товары в день заказа</p>
+                </div>
+            </div>
+            <p class="tagline">Просто, удобно и без риска.</p>
+        </div>
+    </section>
+
+    <!-- Блок 4: Партнёрам -->
+    <section class="partners" id="partners">
+        <div class="container">
+            <div class="partners-content">
+                <div class="partners-text">
+                    <h2>Продавцам рынка: подключитесь бесплатно и получайте заказы</h2>
+                    <p>Вы — поставщик на Азия-Сибирь? Подключите свой склад к ОптБазар:</p>
+                    <ul>
+                        <li>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            Получайте готовые заказы без поиска клиентов
+                        </li>
+                        <li>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            Комиссия 5–10% только с подтверждённых продаж
+                        </li>
+                        <li>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            Мы берём на себя рекламу и доставку
+                        </li>
+                        <li>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            Регистрация простая — оставьте заявку
+                        </li>
+                    </ul>
+                </div>
+                <div class="partners-form">
+                    <form id="partnerForm">
+                        <input type="text" name="name" placeholder="Имя" required>
+                        <input type="tel" name="phone" placeholder="Телефон" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="warehouse" placeholder="Номер склада">
+                        <button type="submit" class="btn btn-primary">Подключиться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок 5: Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Начните закупки умнее прямо сейчас</h2>
+            <p>Скачайте приложение или зайдите в магазин. Экономьте время и деньги с ОптБазар.<br>Подпишитесь на обновления цен — оставьте email.</p>
+            <div class="cta-actions">
+                <a href="https://оптбазар.рф" class="btn btn-primary btn-large">В магазин</a>
+                <form id="subscribeForm" class="subscribe-form">
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                    <button type="submit" class="btn btn-secondary">Подписаться</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ОптБазар.рф — Маркетплейс Азия-Сибирь</p>
+            <p>Новосибирск, НСО | Контакты: info@оптбазар.рф</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
